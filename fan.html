@@ -30,21 +30,11 @@
 			<li><a href="#anchor4" id="bm4">ClanWar</a></li>
     </ul>
   </div>
-	<div id="menu2">
-		<ul id="tmenu2">
-			<li><a href="#anchor" id="bm5">Мемы</a></li>
-      <li><a href="#anchor2" id="bm6">Видео</a></li>
-      <li><a href="#anchor3" id="bm7">Скрины</a></li>
-			<li><a href="#anchor4" id="bm8">ClanWar</a></li>
-		</ul>
-	</div>
 	<img src="images/strel2.png" id="str1" width="100" height="100">
-	<img src="images/strel.png" id="str5" width="100" height="100">
   <script>
     var menu = document.getElementById ('menu')
     var tmenu = document.getElementById ('tmenu')
 		var str1 = document.getElementById ('str1')
-		var str5 = document.getElementById ('str5')
     str1.onmouseover = function() {
       menu.style.width='200px';
       menu.style.transition='all 0.5s ease';
@@ -79,50 +69,6 @@
 			tmenu.style.transition='all 0.5s ease';
 			str1.style.opacity='1'
 			str1.style.transition='all 0.5s ease';
-			return false;
-		};
-  </script>
-  <script>
-    var menu2 = document.getElementById ('menu2')
-    var tmenu2 = document.getElementById ('tmenu2')
-    str5.onmouseover = function() {
-      menu2.style.width='200px';
-      menu2.style.left='1320px'
-      menu2.style.transition='all 0.5s ease';
-      tmenu2.style.opacity='1'
-      tmenu2.style.transition='all 0.5s ease';
-			str5.style.opacity='0'
-			str5.style.transition='all 0.5s ease';
-      return false;
-    };
-		menu2.onmouseover = function() {
-			menu2.style.width='200px';
-			menu2.style.left='1320px'
-			menu2.style.transition='all 0.5s ease';
-			tmenu2.style.opacity='1'
-			tmenu2.style.transition='all 0.5s ease';
-			str5.style.opacity='0'
-			str5.style.transition='all 0.5s ease';
-			return false;
-		};
-    str5.onmouseout = function() {
-      menu2.style.width='200px';
-      menu2.style.left='1520px'
-      menu2.style.transition='all 0.5s ease';
-      tmenu2.style.opacity='0'
-      tmenu2.style.transition='all 0.5s ease';
-			str5.style.opacity='1'
-			str5.style.transition='all 0.5s ease';
-      return false;
-    };
-		menu2.onmouseout = function() {
-			menu2.style.width='200px';
-			menu2.style.left='1520px'
-			menu2.style.transition='all 0.5s ease';
-			tmenu2.style.opacity='0'
-			tmenu2.style.transition='all 0.5s ease';
-			str5.style.opacity='1'
-			str5.style.transition='all 0.5s ease';
 			return false;
 		};
   </script>
