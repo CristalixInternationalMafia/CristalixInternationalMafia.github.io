@@ -1,7 +1,6 @@
 #cim{
 	position:relative;
-	display:flex;
-	justify-content:center;
+	padding-left: 290px;
 	font-size: 60px;
 	font-family: comic sans ms;
 	background-color: RGB(255 218 185);
@@ -215,7 +214,7 @@ body{
 }
 #t5{
 	position:absolute;
-	top:200px;
+	top:170px;
 	right:150px;
 	font-size:40px;
 	font-family:comic sans ms;
@@ -549,7 +548,8 @@ body{
 	background-color:#f7f7f7;
 	position:absolute;
 	box-shadow: -5px 5px 5px -5px #000000;
-
+	margin-left: 800px;
+ 	margin-top: -1300px;
 	min-width:600px;
 	min-height:800px;
 	max-width: 600px;
