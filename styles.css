@@ -620,9 +620,14 @@ body{
 	left: 490px;
 	padding-top: 20px;
 }
-#t8{
-	position:relative;
-	bottom: 200px;
+#t8 {
+  position: absolute;
+  bottom: 200px;
+  margin-left:-1350px;
+}
+#ris{
+  position: relative;
+  padding-left:300px;
 }
 #t9{
 	position: relative;
