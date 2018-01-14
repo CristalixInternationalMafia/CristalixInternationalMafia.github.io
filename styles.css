@@ -1,6 +1,7 @@
 #cim{
 	position:relative;
-	padding-left:200px;
+	display:flex;
+	justify-content:center;
 	font-size: 60px;
 	font-family: comic sans ms;
 	background-color: RGB(255 218 185);
