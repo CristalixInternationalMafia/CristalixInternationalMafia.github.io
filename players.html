@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8/>
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<title>Игроки CIM</title>
+	</head>
+
+	<body onselectstart="return false" onmousedown="return false" >
+		<div class="h1">
+			<strong id='cim'>CRISTALIX INTERNATIONAL MAFIA</strong>
+			<img src='images/nycap.png' width='70' height='70' id='nycap'>
+		</div>
+		<header>
+			<nav class="menu">
+				<ul>
+					<li><a href="history.html" class='link1'><img src="images/icon.png" width="20">ИСТОРИЯ</a></li>
+					<li><a href="players.html" class='link1'><img src="images/icon.png" width="20">ИГРОКИ</a></li>
+					<li><a href="going.html" class='link1'><img src="images/icon.png" width="20">ВСТУПИТЬ</a></li>
+					<li><a href="inf.html" class='link1'><img src="images/icon.png" width="20">ИНФОРМАЦИЯ</a></li>
+					<li><a href="fan.html" class='link1'><img src="images/icon.png" width="20">ФАН</a></li>
+				</ul>
+			</nav>
+		</header>
+		<nav class='plays'>
+			<ul id='pl'>
+				<li id='teste2'><b class='t4'>_Katywa_</b><a href='#' id='link2' onclick='alert1()'>Инфa</a></li>
+				<li id='teste3'><b class='t4'>Immortelle</b><a href='#' id='link3' onclick='alert2()'>Инфa</a></li>
+				<li id='teste4'><b class='t4'>Forgotten</b><a href='#' id='link4' onclick='alert3()'>Инфa</a></li>
+				<li id='teste5'><b class='t4'>LdosEnte_</b><a href='#' id='link5' onclick='alert4()'>Инфa</a></li>
+				<li id='teste6'><b class='t4'>_Skret_</b><a href='#' id='link6' onclick='alert5()'>Инфa</a></li>
+				<li id='teste7'><b class='t4'>Hawkridje</b><a href='#' id='link7' onclick='alert6()'>Инфa</a></li>
+				<li id='teste8'><b class='t4'>Zip550</b><a href='#' id='link8' onclick='alert7()'>Инфa</a></li>
+				<li id='teste9'><b class='t4'>xolil</b><a href='#' id='link9' onclick='alert8()'>Инфa</a></li>
+				<li id='teste10'><b class='t4'>Louary</b><a href='#' id='link10' onclick='alert9()'>Инфa</a></li>
+				<li id='teste11'><b class='t4'>YOUR_SHAME</b><a href='#' id='link11' onclick='alert10()'>Инфa</a></li>
+				<li id='teste12'><b class='t4'>Mikhail_home</b><a href='#' id='link12' onclick='alert11()'>Инфa</a></li>
+				<li id='teste13'><b class='t4'>DragoPlut</b><a href='#' id='link13' onclick='alert12()'>Инфa</a></li>
+				<li id='teste14'><b class='t4'>SlanePlay</b><a href='#' id='link14' onclick='alert13()'>Инфa</a></li>
+				<li id='teste15'><b class='t4'>Frapsikolla</b><a href='#' id='link15' onclick='alert14()'>Инфa</a></li>
+				<li id='teste16'><b class='t4'>hunt3rban</b><a href='#' id='link16' onclick='alert15()'>Инфa</a></li>
+				<li id='teste17'><b class='t4'>ItzFaunPvP</b><a href='#' id='link17' onclick='alert16()'>Инфa</a></li>
+				<li id='teste18'><b class='t4'>KOMOK_4ELOVEKA</b><a href='#' id='link18' onclick='alert17()'>Инфa</a></li>
+				<li id='teste19'><b class='t4'>Резерв</b><a href='#' id='link19' onclick='alert18()'>Инфa</a></li>
+			</ul>
+		</nav>
+			<script>
+				var link = document.getElementById('teste2');
+				var link2 = document.getElementById('link2');
+				var link3 = document.getElementById('teste3');
+				var link4 = document.getElementById('link3');
+				var link5 = document.getElementById('teste4');
+				var link6 = document.getElementById('link4');
+				var link7 = document.getElementById('teste5');
+				var link8 = document.getElementById('link5');
+				var link9 = document.getElementById('teste6');
+				var link10 = document.getElementById('link6');
+				var link11 = document.getElementById('teste7');
+				var link12 = document.getElementById('link7');
+				var link13 = document.getElementById('teste8');
+				var link14 = document.getElementById('link8');
+				var link15 = document.getElementById('teste9');
+				var link16 = document.getElementById('link9');
+				var link17 = document.getElementById('teste10');
+				var link18 = document.getElementById('link10');
+				var link19 = document.getElementById('teste11');
+				var link20 = document.getElementById('link11');
+				var link21 = document.getElementById('teste12');
+				var link22 = document.getElementById('link12');
+				var link23 = document.getElementById('teste13');
+				var link24 = document.getElementById('link13');
+				var link25 = document.getElementById('teste14');
+				var link26 = document.getElementById('link14');
+				var link27 = document.getElementById('teste15');
+				var link28 = document.getElementById('link15');
+				var link29 = document.getElementById('teste16');
+				var link30 = document.getElementById('link16');
+				var link31 = document.getElementById('teste17');
+				var link32 = document.getElementById('link17');
+				var link33 = document.getElementById('teste18');
+				var link34 = document.getElementById('link18');
+				var link35 = document.getElementById('teste19');
+				var link36 = document.getElementById('link19');
+					link.onmouseover = function() {
+						link2.style.opacity='1';
+						link2.style.transition='all 0.5s ease';
+						return False;
+					};
+					link.onmouseout = function() {
+						link2.style.opacity='0';
+						return False;
+					};
+					link3.onmouseover = function() {
+						link4.style.opacity='1';
+						link4.style.transition='all 0.5s ease';
+						return False;
+					};
+					link3.onmouseout = function() {
+						link4.style.opacity='0';
+						return False;
+					};
+					link5.onmouseover = function() {
+						link6.style.opacity='1';
+						link6.style.transition='all 0.5s ease';
+						return False;
+					};
+					link5.onmouseout = function() {
+						link6.style.opacity='0';
+						return False;
+					};
+					link7.onmouseover = function() {
+						link8.style.opacity='1';
+						link8.style.transition='all 0.5s ease';
+						return False;
+					};
+					link7.onmouseout = function() {
+						link8.style.opacity='0';
+						return False;
+					};
+					link9.onmouseover = function() {
+						link10.style.opacity='1';
+						link10.style.transition='all 0.5s ease';
+						return False;
+					};
+					link9.onmouseout = function() {
+						link10.style.opacity='0';
+						return False;
+					};
+					link11.onmouseover = function() {
+						link12.style.opacity='1';
+						link12.style.transition='all 0.5s ease';
+						return False;
+					};
+					link11.onmouseout = function() {
+						link12.style.opacity='0';
+						return False;
+					};
+					link13.onmouseover = function() {
+						link14.style.opacity='1';
+						link14.style.transition='all 0.5s ease';
+						return False;
+					};
+					link13.onmouseout = function() {
+						link14.style.opacity='0';
+						return False;
+					};
+					link15.onmouseover = function() {
+						link16.style.opacity='1';
+						link16.style.transition='all 0.5s ease';
+						return False;
+					};
+					link15.onmouseout = function() {
+						link16.style.opacity='0';
+						return False;
+					};
+					link17.onmouseover = function() {
+						link18.style.opacity='1';
+						link18.style.transition='all 0.5s ease';
+						return False;
+					};
+					link17.onmouseout = function() {
+						link18.style.opacity='0';
+						return False;
+					};
+					link19.onmouseover = function() {
+						link20.style.opacity='1';
+						link20.style.transition='all 0.5s ease';
+						return False;
+					};
+					link19.onmouseout = function() {
+						link20.style.opacity='0';
+						return False;
+					};
+					link21.onmouseover = function() {
+						link22.style.opacity='1';
+						link22.style.transition='all 0.5s ease';
+						return False;
+					};
+					link21.onmouseout = function() {
+						link22.style.opacity='0';
+						return False;
+					};
+					link23.onmouseover = function() {
+						link24.style.opacity='1';
+						link24.style.transition='all 0.5s ease';
+						return False;
+					};
+					link23.onmouseout = function() {
+						link24.style.opacity='0';
+						return False;
+					};
+					link25.onmouseover = function() {
+						link26.style.opacity='1';
+						link26.style.transition='all 0.5s ease';
+						return False;
+					};
+					link25.onmouseout = function() {
+						link26.style.opacity='0';
+						return False;
+					};
+					link27.onmouseover = function() {
+						link28.style.opacity='1';
+						link28.style.transition='all 0.5s ease';
+						return False;
+					};
+					link27.onmouseout = function() {
+						link28.style.opacity='0';
+						return False;
+					};
+					link29.onmouseover = function() {
+						link30.style.opacity='1';
+						link30.style.transition='all 0.5s ease';
+						return False;
+					};
+					link29.onmouseout = function() {
+						link30.style.opacity='0';
+						return False;
+					};
+					link31.onmouseover = function() {
+						link32.style.opacity='1';
+						link32.style.transition='all 0.5s ease';
+						return False;
+					};
+					link31.onmouseout = function() {
+						link32.style.opacity='0';
+						return False;
+					};
+					link33.onmouseover = function() {
+						link34.style.opacity='1';
+						link34.style.transition='all 0.5s ease';
+						return False;
+					};
+					link33.onmouseout = function() {
+						link34.style.opacity='0';
+						return False;
+					};
+					link35.onmouseover = function() {
+						link36.style.opacity='1';
+						link36.style.transition='all 0.5s ease';
+						return False;
+					};
+					link35.onmouseout = function() {
+						link36.style.opacity='0';
+						return False;
+					};
+			</script>
+			<script>
+				function alert1(title,text,caption) {
+					return swal({
+						title: "Hello,it's Katyawa 4sv",
+						text: "Глава всего этого.Бвшер,свшер,в прошлом даже аннигилятор,по масти ;D.Играет почти на всех режимах Кристаликса(муты то надо ведь фармить ;p).В пивипи средненько с:",
+						button: "Погнали Дальшее!"
+					});
+				}
+				function alert2(title,text,caption) {
+					return swal({
+						title: "Hi,it's Immortelle(Морт,Иммортл)",
+						text: 'Второй главный Одмен всего этого,Очень хороший игрок в бв и сб.Был топом бв на 1 кристаликсе :d.Всегда снимает читеров на видео,поэтому при нем не советую включать килл-ауру :v.Один из лучших пвпшеров 2 кристы',
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert3(title,text,caption) {
+					return swal({
+						title: "Hi,it's Forgotten(mysdw,Pes)",
+						text: "Наш всеми любимый третий,и последний Одмен Мафии.Все знают его как Пса.По породе он бульдог,и его хозяином является Katyawa 4sv.Один из топ-пвпшеров кристы.Топ бв и потха.Один из самых олдовых игроков CIM и предшествующих ему кланов.",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert4(title,text,caption) {
+					return swal({
+						title: "Hi,it's LdosEnte_(Eldos)",
+						text: "Всемии известныый Лдооооос.It's лучший по нашему мнению пвпшер кристы(Его банили 3 раза за макросы или киллауру даже самые опытные модеры,но потом всегда разбанивали).Топ св,бв.Ютубер,можете посмотреть его видео на канале LdosEnte_ :3",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert5(title,text,caption) {
+					return swal({
+						title: "Wow,it's Skret(Скрепка,Кс)",
+						text: "Самая жеская девченка среди всех.Никто не называет ее по нику,все называют по имени(Боятся видимо...).Уже почти не играет в майн,и никто незнает будет ли играть на кристе.Раньше была аннигилятором на WimeWorld,и была в топ 1 островах на Skyblock-Newgen на Кристе и ЕпиПлексе.При ней лучше ничего не говорить про покемонов,иначе она начнет очень длинный диалог :P",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert6(title,text,caption) {
+					return swal({
+						title: "Yeah,it's Hawkridje (hawk)",
+						text: "Это Рома,старый друг Katyawa.Тоже бвшер,как ни странно и в пвп он хорош.Один из первых людей,кому Katyawa предложил создать клан.",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert7(title,text,caption) {
+					return swal({
+						title: "Omg,it's Zip550(ЗыпЗып,Лёха)",
+						text: "Второй из самых олдовых игроков CIM и его кланов.Так же неплохо играет в каес,однако уже 4 месяц неможет с Katyawa и KOMOK_4ELOVEKA Выйти с Голд Новы xd.Хорош в пвп,играет на многих пвп режимах кристаликса.Подсадил Katyawa на русский рэп D:",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert8(title,text,caption) {
+					return swal({
+						title: "Eeeeee boyyy,it's xolil(lilox,Леха,Дяденька)",
+						text: "Это Леха,уважаемый человек в CIM,играет на многих режимах кристы.Хорош в джедикрафте(Его любимый режим :0).Нормальное пвп,так же неплохо дефает кровать в бедварсе ;D",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert9(title,text,caption) {
+					return swal({
+						title: "Oooooh,it's Louary",
+						text: "Это Олеся.Как и многие игроки CIM,она пришла к нам еще когда я начал набирать людей в наш первый клан,вместе со своим братом(Одмен CIM,а теперь догадайтесь кто это ^_^) и подругой.Была Админом Wind Alliance.Она хорошо поднимает атмосферу в клане/мафии во время игры.Играет больше на pve режимах :3",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert10(title,text,caption) {
+					return swal({
+						title: "Oooooh,it's YOUR_SHAME",
+						text: "Это Ангелина,она как бы есть в CIM,но как бы и нету С;.Подруга Олеси,и так же,она наводит атмосферу в кланах.Тоже играет на многих режимах,но неплохо играет в бедварс.Это она научила Katyawa строить мосты фастбриджем(ниндзей,с отжимом),за что Katyawa очень благодарен ей,ведь если бы не она,он был бы раком в бв.",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert11(title,text,caption) {
+					return swal({
+						title: "Hello,it's mikhail_home",
+						text: "Это Миха,друг Skret,в основном скайблокер,один из новых игроков CIM c:",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert12(title,text,caption) {
+					return swal({
+						title: "Hello,it's DragoPlut",
+						text: "Друг Zip550,самый старший в CIM,с пвп все в порядке,может играть на многих пвп режимах.Неплохой Каесер :1",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert13(title,text,caption) {
+					return swal({
+						title: "Oooooooooo,it's SlanePlay",
+						text: "Один из олдов CIM.Веселый молодой человек.В пвп средне,но играть любит на св,бв и многих других режимах.Был хелпером кристы(Но недолго xd).",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert14(title,text,caption) {
+					return swal({
+						title: "Wow,it's Frapsikolla",
+						text: "Ну его я думаю,знают многие игроки кристаликса.Самый топовый скайварсер кристаликса.В пвп один из лучших.В CIM относительно недавно,но был в клане CFT,идущим до CIM.Так же на дмс его знают наверно,многие,там он тоже отличился :0.",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert15(title,text,caption) {
+					return swal({
+						title: "Hi,it's hunt3ban",
+						text: "Будучи известным игроком кристаликса,Хантер хорош в пвп,играет на многих пвп и пве режимах.В CIM тоже относительно недавно,был отобран у клана Ruby Peak,потому что Katyawa просто так не оставляет людей,который были раньше в его кланах. :)",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert16(title,text,caption) {
+					return swal({
+						title: "Yeeaaah,it's ItzF(D)aunPvP",
+						text: "Очень известный игрок кристаликса,один из олдов CFT,однако в CIM недавно.Очень хорош в пвп,умеет баттерфляить xd.Топ бвшер и свшер,на бв против него лучше не попадаться.так же он может выключить интернет любому,кто его оскорбит :3",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert17(title,text,caption) {
+					return swal({
+						title: "Hello,it's KOMOK_4ELOVEKA",
+						text: "Комок Человека...Я до сих пор смеюсь над ником,очень понравился.Но не уходя от темы,это Костя(Как демастер с:),он друг Zip550 и пришел в CIM по его предложению в начале появления самого CIM.В основном он Каесер,но это не мешает играть на кристаликсе.",
+						button: "Идем Дальшее!"
+					});
+				}
+				function alert(title,text,caption) {
+					return swal({
+						title: "Резервное время",
+						text: "Hello,i'm here ToT",
+						button: "Назад"
+					});
+				}
+			</script>
+		<b id='t5'>Слева вы видите список игроков нынешнего CIM</b>
+		<div id='loster'>
+			<header>
+				<b id='loster1'>Loster</b>
+			</header>
+			<p id="loster2">Лостер это наша легенда.Без него небыло бы CIM и предыдущих ему кланов.Он собрал,объеденил многих игроков первого состава.Он уже был в составе CIM
+			,однако очень быстро вылетел,ибо он уже не тот что был раньше.Но тем не менее мы хотели бы отдать ему почести и теперь он будет на особом месте в этом сайте,ибо без него,действительно,небыло бы наших кланов,и мы бы не подружились друг с другом.</p>
+			<img src="images/nado.jpg" id="losterf" width="560" height="390">
+			<img id="podlost" src="images/podlost.png" height="200">
+		</div>
+		<div class="main"><a href="index.html" class="amain">На главную</a></div>
+		<script src="allscr.js"></script>
+	</body>
+</html>
