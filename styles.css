@@ -6,6 +6,11 @@
   font-family: comic sans ms;
   background-color: RGB(255 218 185);
 }
+@media handheld {
+  * {
+    display:none;
+  }
+}
 .h1{
 	background-color:#5b595b;
 }
